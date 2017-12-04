@@ -19,5 +19,5 @@ def clean_str(string):
     string = re.sub(r"\)", " \) ", string)
     string = re.sub(r"\?", " \? ", string)
     string = re.sub(r"\s{2,}", " ", string)
-    # return string.strip().lower()
+
     return string.strip().lower()
